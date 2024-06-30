@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Noto", sans-serif;
+    background-color: #282828;
+    color: #ffffff;
+    fill: #ffffff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.spaceBox {
+    width: 100vw;
+    height: 20vh;
+    background-color: #1f1f1f;
+}
+
+.yt-logo {
+    width: 50vw;
+    margin: 0.8rem auto;
+    height: 30px;
+}
+
+.yt-logo>svg,
+g {
+    background-color: #1f1f1f;
+    height: 17.5px;
+}
+
+.logoDiv {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -3.5rem auto;
+    transition: 4s linear;
+}
+
+.logoDiv:hover {
+    box-shadow: 0px 0px 100px;
+}
+
+.logoDiv>img {
+    text-align: center;
+    width: 80%;
+    border-radius: 50%;
+}
+
+.cName {
+    width: 100%;
+    height: 24px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 1rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4.1rem auto;
+    background-color: #282828;
+}
+
+.odometer {
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 0.3rem;
+    letter-spacing: 0.1rem;
+}
+
+#subs-text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #aaa;
+}
+.analytics{
+    border: 2px solid  #3d3d3d;;
+    border-radius: 5px;
+    width: 65vw;
+    height: 30vh;
+    margin-top: 10vh;
+}
+
+.btnBox {
+    width: 23vw;
+    margin-left: 73vw;
+}
+
+.btns {
+    border-radius: 12px;
+    padding: 10px 15px;
+    border: 2px solid rgb(86, 86, 86);
+    font-weight: 700;
+    text-align: center;
+    color:rgb(235 167 35);
+    background-color: rgb(9, 9, 9);
+    margin: 0.1rem;
+}
+
+@media (max-width: 800px) {
+
+    .btnBox {
+        width: auto;
+        margin-left: 0;
+        margin-top: 30vh;
+    }
+    .analytics{
+        margin-top: 30vh;
+    }
+    
+
+}
+
+@media (max-width: 320px) {
+    .btnBox {
+        width: auto;
+        margin-left: 0;
+        margin-top: 24vh;
+    }
+    .analytics{
+        margin-top: 24vh;
+    }
+
+}
+/* Js Releted style */
+.noDisplay{display: none;}
